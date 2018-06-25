@@ -1,3 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .title {
   text-align: center;
 }
@@ -5,4 +13,12 @@
 .flag {
   border: solid 1px #e8e8e8;
   margin: 5px 5px 0 5px;
+  width: 50px;
+  min-height: 39.5px;
+  transition: 0.2s ease-in-out;
+  cursor: zoom-in;
+}
+
+.flag:hover {
+  transform: scale3d(2.5,2.5,1); 
 }
