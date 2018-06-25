@@ -4,7 +4,7 @@
   "description": "Light weight national flag image react component",
   "main": "lib/index.js",
   "scripts": {
-    "lib": "babel src/lib -d lib && cp src/lib/*.css lib",
+    "lib": "babel src/lib -d lib",
     "lib:watch": "babel src/lib -w -d lib",
     "docs": "webpack-dev-server",
     "docs:prod": "webpack -p",
