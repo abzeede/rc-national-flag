@@ -11,7 +11,7 @@ function Demo() {
       <div className="container">
         {
           Object.keys(countries).map((code) => (
-            <Flag className="flag" code={code} />
+            <Flag key={code} className="flag" code={code} />
           ))
         }
       </div>
