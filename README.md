@@ -12,6 +12,15 @@ code: ISO2 country codes
 square: if true, it's going to show flag as square(1x1). default false (4x3)
 ```
 
+## Example
+```
+// ThFlag.js
+import React from 'react
+import Flag from 'rc-national-flag'
+
+export default () => <Flag code="th" />
+```
+
 ## Demo
 https://abzeede.github.io/rc-national-flag/.
 
