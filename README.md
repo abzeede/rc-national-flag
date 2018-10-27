@@ -18,7 +18,14 @@ square: if true, it's going to show flag as square(1x1). default false (4x3)
 import React from 'react
 import Flag from 'rc-national-flag'
 
-export default () => <Flag code="th" />
+export default () => (
+    <ul>
+        {/* Thailand Flag */}
+        <li><Flag code="th" /></li>
+        {/* Make Thailand Flag Square */}
+        <li><Flag code="th" square /></li>
+    </ul>
+)
 ```
 
 ## Demo
